@@ -8,7 +8,7 @@ frame rendering time: 4-5 ms
 1. Clone the repo. Update the submodules.
 2. run scripts/Scripts.bat to generate .sln project
 
-#Linux
+# Linux
 1. git clone --recursive https://github.com/chikvi/RayTracing
 2. cd RayTracing
 3. mkdir build && cd build
