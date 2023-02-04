@@ -4,7 +4,15 @@ Based on GLADWalnut.
 frame rendering time: 4-5 ms
 
 ## Installation Guide
-(Currently only supported on Windows)
-1. Clone the repo
+# Windows
+1. Clone the repo. Update the submodules.
 2. run scripts/Scripts.bat to generate .sln project
-Done!!
+
+#Linux
+1. git clone --recursive https://github.com/chikvi/RayTracing
+2. cd RayTracing
+3. mkdir build && cd build
+4. cmake ..
+5. make
+6. cd build/Raytracing
+7. ./raytracing_app
