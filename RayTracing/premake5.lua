@@ -9,9 +9,10 @@ project "RayTracing"
 
    includedirs
    {
-      "../vendor/imgui",
-      "../vendor/glfw/include",
-	"../vendor/glad/include",
+      "../Walnut/vendor/imgui",
+      "../Walnut/vendor/glfw/include",
+	"../Walnut/vendor/glad/include",
+	"../Walnut/vendor/glm",
 
       "../Walnut/src",
 
